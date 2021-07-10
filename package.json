@@ -1,0 +1,23 @@
+{
+  "name": "brainfuck_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node build/app.js --input brnfck_files/code.brnfck",
+    "startHelloWorld": "tsc && node build/app.js --input brnfck_files/hello_world.brnfck",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.3.1",
+    "tsc": "^2.0.3",
+    "tslint": "^5.12.1",
+    "typescript": "^3.9.10"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
